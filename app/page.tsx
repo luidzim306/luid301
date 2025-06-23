@@ -1455,7 +1455,10 @@ export default function SigiloX() {
                       </div>
                     </div>
 
-                    <Button className="w-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white font-bold py-2 sm:py-3 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 touch-manipulation">
+                    <Button
+                      onClick={() => window.open("https://global.mundpay.com/priyelxoql?affh=pfolhthcko", "_blank")}
+                      className="w-full bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white font-bold py-2 sm:py-3 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 touch-manipulation"
+                    >
                       👁️ VIEW COMPLETE PHOTOS NOW
                     </Button>
                   </CardContent>
@@ -1567,7 +1570,7 @@ export default function SigiloX() {
                     See photos, conversations and exact location of the profile.
                   </p>
                   <Button
-                    onClick={() => window.open("https://global.mundpay.com/priyelxoql", "_blank")}
+                    onClick={() => window.open("https://global.mundpay.com/priyelxoql?affh=pfolhthcko", "_blank")}
                     className="bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white font-bold py-3 sm:py-4 px-6 sm:px-8 text-base sm:text-lg rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 w-full touch-manipulation"
                   >
                     🔓 UNLOCK REPORT NOW
