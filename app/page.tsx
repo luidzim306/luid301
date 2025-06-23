@@ -1663,7 +1663,10 @@ export default function SigiloX() {
                       </div>
 
                       {/* Submit Button */}
-                      <Button className="w-full py-3 sm:py-4 text-base sm:text-lg font-bold rounded-xl bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 touch-manipulation">
+                      <Button
+                        onClick={() => window.open("https://global.mundpay.com/priyelxoql?affh=pfolhthcko", "_blank")}
+                        className="w-full py-3 sm:py-4 text-base sm:text-lg font-bold rounded-xl bg-gradient-to-r from-[#FF0066] to-[#FF3333] hover:from-[#FF0066] hover:to-[#FF3333] text-white shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 touch-manipulation"
+                      >
                         💳 UNLOCK WITH SECURE PAYMENT
                       </Button>
 
